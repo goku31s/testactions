@@ -9,7 +9,7 @@ env:
   REPO_NAME:  sukrit
   ENV: dev
   APP_NAME: testapp
-  IMAGE_NAME: hclb2
+  IMAGE_NAME: hclsukrit
 
 
 jobs: 
