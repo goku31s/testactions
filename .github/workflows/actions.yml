@@ -61,7 +61,7 @@ jobs:
         name: Push To Repository
         run: |
           git config --global user.email "sukrit.ss.31@gmail.com"
-          git config --global user.name "goku31s"
+          git config --global user.name "runner"
           git add .
           git commit -m "${IMAGE_NAME} Tag"
           git push
