@@ -48,7 +48,7 @@ jobs:
         name: Checkout Deployment Repo
         uses: actions/checkout@v3
         with:
-          repository:  goku431/testgitopsgithubactions
+          repository:  goku31s/testgitopsgithubactions
           token: ${{ secrets.GH_PAT }}
           ref: 'main'
       - 
