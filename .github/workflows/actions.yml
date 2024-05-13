@@ -56,7 +56,7 @@ jobs:
         run: |
           export IMAGE_NAME=${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
           echo $IMAGE_NAME
-          sed -i "s|mdhack/hcl.*$|$IMAGE_NAME|" deployment.yaml
+          sed -i "s|goku431/hcl.*$|$IMAGE_NAME|" deployment.yaml
       -
         name: Push To Repository
         run: |
